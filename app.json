@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Adotely",
+    "slug": "adotely",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "53.0.0",
+    "platforms": ["ios", "android"],
+    "jsEngine": "hermes",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "45e573f3-4fc2-4f7b-8706-a1792dc6ea94"
+      }
+    },
+    "android": {
+      "package": "com.sbrlnah.adotely",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.sbrlnah.adotely",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Este app usa sua localização para mostrar pets próximos."
+      }
+    }
+  }
+}

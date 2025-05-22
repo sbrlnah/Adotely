@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033317163928",
+    "project_id": "adotely-860da",
+    "storage_bucket": "adotely-860da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033317163928:android:3662f94a16ac3a060cc1ed",
+        "android_client_info": {
+          "package_name": "com.sbrlnah.adotely"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033317163928-ba8dfc965618d7i5otqejs8ualicebng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFtSIb0xbLvOgikJOrp-tkFi58mSE5B7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033317163928-ba8dfc965618d7i5otqejs8ualicebng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
