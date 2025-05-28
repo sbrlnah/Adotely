@@ -33,20 +33,20 @@
 
 ## Instalação e Execução
 
-1. Clone o repositório
+## 1. Clone o repositório
 
 Abra o terminal e execute:
 
 git clone https://github.com/sbrlnah/adotely.git
 cd adotely
 
-2. Instale as dependências
+## 2. Instale as dependências
 
 Execute:
 
 npm install
 
-3. Inicie o aplicativo
+## 3. Inicie o aplicativo
 
 Para rodar o app com Expo, use:
 
