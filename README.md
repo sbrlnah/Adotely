@@ -31,6 +31,31 @@
 
 ---
 
+## Instalação e Execução
+
+1. Clone o repositório
+
+Abra o terminal e execute:
+
+git clone https://github.com/sbrlnah/adotely.git
+cd adotely
+
+2. Instale as dependências
+
+Execute:
+
+npm install
+
+3. Inicie o aplicativo
+
+Para rodar o app com Expo, use:
+
+npx expo start
+
+Você verá um QR Code no terminal ou navegador. Use o aplicativo Expo Go no seu celular para escanear o código e testar o app. Também é possível rodar em emuladores Android ou iOS, se estiver configurado.
+
+---
+
 ## Estrutura de Pastas
 
 ```plaintext
@@ -79,29 +104,3 @@ adotely/
 ├── utils/
 │   └── gerarChatID.js
 └── node_modules/
-
----
-
-## Instalação e Execução
-
-1. Clone o repositório
-
-Abra o terminal e execute:
-
-git clone https://github.com/sbrlnah/adotely.git
-cd adotely
-
-2. Instale as dependências
-
-Execute:
-
-npm install
-
-3. Inicie o aplicativo
-
-Para rodar o app com Expo, use:
-
-npx expo start
-
-Você verá um QR Code no terminal ou navegador. Use o aplicativo Expo Go no seu celular para escanear o código e testar o app. Também é possível rodar em emuladores Android ou iOS, se estiver configurado.
-
